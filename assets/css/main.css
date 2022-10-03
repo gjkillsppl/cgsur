@@ -44249,7 +44249,7 @@ dd {
 }
 
 .bg-warning {
-  background-color: #ffb116 !important;
+  background-color: #f69321!important;
 }
 
 .bg-warning-dark {
@@ -44353,8 +44353,8 @@ dd {
 }
 
 .bg-gradient {
-  background: -webkit-gradient(linear, left top, right top, from(#071c4d), to(#002d97)) !important;
-  background: linear-gradient(90deg, #071c4d, #002d97) !important;
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#ffdab0)) !important;
+  background: linear-gradient(90deg, #fff, #ffdab0) !important;
 }
 
 a,
@@ -47939,7 +47939,7 @@ select.form-select {
 }
 
 .bg-warning-alt {
-  background-color: rgba(255, 177, 22, 0.12);
+  background-color: #f69321;
 }
 
 .bg-danger-alt {

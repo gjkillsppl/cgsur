@@ -21,283 +21,7 @@ var THEMETAGS = THEMETAGS || {};
     } else {
       $("nav.sticky-header").addClass("affix");
     }
-  }); //swiper slide js
-
-  var swiper = new Swiper(".testimonialSwiper", {
-    slidesPerView: 1,
-    speed: 700,
-    spaceBetween: 30,
-    slidesPerGroup: 1,
-    loop: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 1
-      },
-      640: {
-        slidesPerView: 1
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      },
-      1024: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      },
-      1142: {
-        slidesPerView: 2,
-        spaceBetween: 25
-      }
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    }
-  }); //swiper slide js
-
-  var swiper = new Swiper(".testimonialThreeSwiper", {
-    slidesPerView: 2,
-    speed: 700,
-    spaceBetween: 30,
-    slidesPerGroup: 2,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 30
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      },
-      991: {
-        slidesPerView: 3,
-        spaceBetween: 30
-      }
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    }
-  }); //app two review slider
-
-  var swiper = new Swiper(".appTwoReviewSwiper", {
-    slidesPerView: 2,
-    speed: 700,
-    spaceBetween: 30,
-    slidesPerGroup: 2,
-    loop: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 30
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      },
-      991: {
-        slidesPerView: 3,
-        spaceBetween: 30
-      }
-    }
-  }); //logo
-
-  var swiper = new Swiper(".brand-logo-slider", {
-    slidesPerView: 2,
-    speed: 700,
-    spaceBetween: 30,
-    slidesPerGroup: 2,
-    loop: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 30
-      },
-      991: {
-        slidesPerView: 5,
-        spaceBetween: 30
-      }
-    }
-  }); //testimonial cyber
-
-  var swiper = new Swiper(".cyber-testimonial-slider", {
-    slidesPerView: 1,
-    speed: 700,
-    pagination: {
-      clickable: true,
-      el: ".swiper-pagination"
-    },
-    slidesPerGroup: 2,
-    loop: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 30
-      },
-      768: {
-        slidesPerView: 1
-      },
-      991: {
-        slidesPerView: 1
-      }
-    }
-  }); //cyber blog
-
-  var swiper = new Swiper(".cyber-blog", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    speed: 1000,
-    autoplay: {
-      delay: 2500
-    },
-    slidesPerGroup: 1,
-    loop: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 30
-      },
-      768: {
-        slidesPerView: 2
-      },
-      991: {
-        slidesPerView: 3
-      }
-    }
-  }); //crypto testimonial blog
-
-  var swiper = new Swiper(".crypto-testimonial", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    speed: 1000,
-    autoplay: {
-      delay: 2500
-    },
-    slidesPerGroup: 1,
-    loop: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 30
-      },
-      768: {
-        slidesPerView: 2
-      },
-      991: {
-        slidesPerView: 3
-      }
-    }
-  }); //hero-slider
-
-  var swiper = new Swiper(".hero-slider", {
-    slidesPerView: 1,
-    loop: true,
-    speed: 800,
-    autoplay: {
-      delay: 3000
-    }
-  }); //payment brand logo
-
-  var swiper = new Swiper(".payment-brand-logo", {
-    slidesPerView: 1,
-    spaceBetween: 24,
-    speed: 1000,
-    autoplay: {
-      delay: 2500
-    },
-    slidesPerGroup: 1,
-    loop: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 16
-      },
-      768: {
-        slidesPerView: 3
-      },
-      991: {
-        slidesPerView: 5
-      }
-    }
-  }); //payment testimonial 
-
-  var swiper = new Swiper(".payment-testimonial-slider", {
-    slidesPerView: 2,
-    spaceBetween: 24,
-    speed: 1000,
-    autoplay: {
-      delay: 3000
-    },
-    slidesPerGroup: 1,
-    loop: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 1
-      },
-      768: {
-        slidesPerView: 2
-      },
-      991: {
-        slidesPerView: 3
-      }
-    }
-  }); //digital marketing brand logo logo
-
-  var swiper = new Swiper(".digi-logo-slider", {
-    slidesPerView: 1,
-    spaceBetween: 24,
-    speed: 1000,
-    autoplay: {
-      delay: 2500
-    },
-    slidesPerGroup: 1,
-    loop: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 16
-      },
-      768: {
-        slidesPerView: 3
-      },
-      991: {
-        slidesPerView: 6
-      }
-    }
-  }); //digital marketing testimonial
-
-  var swiper = new Swiper(".digi-testimonial-wrapper", {
-    slidesPerView: 1,
-    loop: true,
-    speed: 800,
-    navigation: {
-      nextEl: ".digi-nav-control .swiper-button-next",
-      prevEl: ".digi-nav-control .swiper-button-prev"
-    }
-  }); //digital marketing testimonial
-
-  var swiper = new Swiper(".ev-testimonial-slider", {
-    slidesPerView: 1,
-    loop: true,
-    speed: 800,
-    pagination: {
-      clickable: true,
-      el: ".eve-pagination.swiper-pagination"
-    }
-  });
+  }); 
   THEMETAGS.initialize = {
     init: function () {
       THEMETAGS.initialize.general();
@@ -343,3 +67,24 @@ var THEMETAGS = THEMETAGS || {};
     focus: "#name"
   });
 })();
+
+
+
+
+// Grab wrapper nodes
+const rootNode = document.querySelector('.embla')
+const viewportNode = rootNode.querySelector('.embla__viewport')
+
+// Grab button nodes
+const prevButtonNode = rootNode.querySelector('.embla__prev')
+const nextButtonNode = rootNode.querySelector('.embla__next')
+
+var emblaNode = document.querySelector('.embla')
+var options = { loop: true }
+
+var embla = EmblaCarousel(emblaNode, options)
+
+// Add click listeners
+prevButtonNode.addEventListener('click', embla.scrollPrev, false)
+nextButtonNode.addEventListener('click', embla.scrollNext, false)
+
