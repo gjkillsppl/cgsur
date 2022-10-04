@@ -152,7 +152,7 @@
                             </div>
                             <div class="feature-info-wrap">
                                 <h3 class="h5">Plantillas de contenido</h3>
-                                <p> Crea de forma sencilla, rápida y eficaz  con plantillas de contenido de video en tiempo real para todas las dispositivos que estén en tu establecimiento.
+                                <p> Crea de forma sencilla, rápida y eficaz  con plantillas de contenido de video en tiempo real para todos los dispositivos que estén en tu establecimiento.
                                 </p>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                             </div>
                             <div class="feature-info-wrap">
                                 <h3 class="h5">Tecnología DSFleX</h3>
-                                <p>DSFleX, es una plataforma que te da una solución flexible con nula movilidad y con costo CERO para la publicidad de tus productos o servicios en medios controlados dentro de tu negocio desde cualquier parte del mundo.
+                                <p>DSFleX, es una plataforma que te da una solución flexible con nula movilidad y con costo CERO para la publicidad de tus productos o servicios en medios controlados dentro de tu negocio.
                                 </p>
                             </div>
                         </div>
@@ -176,7 +176,7 @@
                             </div>
                             <div class="feature-info-wrap">
                                 <h3 class="h5">Soporte multipantalla</h3>
-                                <p>Con la plataforma podrás decidir qué quieres que vean en cada una de tus tiendas tus clientes de forma segmentada y lo podrás hacer con un solo clic. </p>
+                                <p>Con la plataforma podrás decidir qué quieres que vean en cada una de tus tiendas tus clientes de forma segmentada y lo podrás hacer con un solo clic desde cualquier parte del mundo. </p>
                             </div>
                         </div>
                     </div>
@@ -273,6 +273,7 @@
                       
                         <body>
                           <!-- Swiper -->
+                        <div class="outside-box">
                           <div class="swiper mySwiper mt-5">
                             <div class="swiper-wrapper">
                               <div class="swiper-slide"> <img src="assets/img/1.png" alt=""> </div>
@@ -282,9 +283,12 @@
                               <div class="swiper-slide"><img src="assets/img/5.png" alt=""></div>
                               <div class="swiper-slide"><img src="assets/img/6.png" alt=""></div>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                            
+                            <div class="swiper-pagination"></div>
                           </div>
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
+                        </div>
                       
                           <!-- Swiper JS -->
                           <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -295,12 +299,20 @@
                               navigation: {
                                 nextEl: ".swiper-button-next",
                                 prevEl: ".swiper-button-prev",
+                               
+                              },
+                              pagination: {
+                                el: '.swiper-pagination',
+                                type: 'bullets',
+                                clickable: true,
                               },
                             });
                           </script>
-  
+
                         </div>
+                        
                     </div>
+                    
                 </div>
                 
             </div>

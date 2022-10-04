@@ -141,3 +141,20 @@
     color:#212020;
     text-decoration: underline;
   }
+
+  @media (min-width: 1200px){
+
+  .outside-box{
+    position: relative;
+
+  }
+
+  .swiper-button-prev{
+    left:-40px !important;
+  }
+
+  .swiper-button-next{
+    right:-40px !important;
+  }
+
+}
