@@ -133,12 +133,12 @@
   }
 
   .bg-gradient h1,   .bg-gradient h2,   .bg-gradient p,   .bg-gradient span, .bg-gradient li, .bg-gradient h3, .bg-gradient .copyright-text p,.bg-gradient .footer-social-list li a {
-    color:#212020;
+    color:#0b163f;
   }
 
   .footer-top.bg-gradient .footer-nav-list li a:hover{
 
-    color:#212020;
+    color:#0b163f;
     text-decoration: underline;
   }
 
